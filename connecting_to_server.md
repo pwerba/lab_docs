@@ -7,17 +7,30 @@ or from home you must be using UCSF VPN link <https://it.ucsf.edu/services/vpn>
 supported MAC OS (10.5, 10.6 10.7 10.8 10.9)
 
 ## Step One
-From your mac in the finder go to the "GO" Menu and select Connect to Server...
+In the Finder select Connect to Server from the Go menu (command-k).
+
 ![step one](img/server_step1.png)
 
 ## Step Two
-Type the address of the server in the Server Address bar make sure to start the server address
-with smb://servername.host 
+
+Type in the address of the server:  smb://server.ucsf.edu/folder
+NOTE: It is important to use SMB:// before the server address
 
 ![step two](img/server_step2.png)
 
 ## Step Three
-You will see a list of "shares" Choose the share you wish to connect to and then hit "OK"
-NOTE a share that is greyd out is likey one you have already mounted or may not have access to
+
+When prompted enter in your UCSF email username and password.
+NOTE: this would be the same credentials you use when logging into UCSF webmail.
 
 ![step three](img/server_step3.png)
+
+Click the "connect" button
+
+## Step Four
+
+You are now presented with a list of avaliable shares. Choose the share you wish to be connected to and click "OK"
+
+NOTE: You may not have full access to each share that is shown if a sharepoint shows up ad grey it most likey means that you are already connected to the share.
+
+![step three](img/server_step4.png)
