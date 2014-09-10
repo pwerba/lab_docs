@@ -1,4 +1,4 @@
-# Connecting to the server
+# Connecting to the server (MAC_OS)
 Requirements:
 
 You must be on the Campus network either by connected to ethernet (prefered for large files) or wireless
